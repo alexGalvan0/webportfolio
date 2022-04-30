@@ -1,0 +1,20 @@
+.zipForm {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #ca2a0e;
+}
+
+.getWeatherBtn {
+  background-color: #f88b70;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: auto;
+  padding: auto;
+  font-family: open sans;
+  font-size: 25px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=openWeather.css.map */

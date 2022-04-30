@@ -1,0 +1,24 @@
+.info-container{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.about-header{
+    text-align: center;
+    text-decoration: underline;
+}
+.about-msg-content{
+    line-height: 1.5;
+}
+@media  screen and (max-width: 960px) {
+    .info-container{
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+    .about-msg-content{
+       text-align: center;
+    }
+    .about-header{
+        text-align: center;
+    }
+};

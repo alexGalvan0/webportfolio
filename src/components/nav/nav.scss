@@ -1,0 +1,23 @@
+
+ul{
+    margin-left: 5%;
+    padding-left: 1px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    position: fixed;
+}
+.nav-option{
+    list-style: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.nav-option:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:960px) {
+    .nav-option{
+        font-size: 1.5rem;
+    }
+}

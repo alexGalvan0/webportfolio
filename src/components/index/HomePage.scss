@@ -1,0 +1,15 @@
+$font-color: black;
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 6rem;;
+}
+.welcomeMessege{
+    margin-top: -100px;
+    background-color: rgb(221, 221, 221);
+    padding-left: 10px;
+}
+.mainIntro{
+    margin-top: 20px;
+}

@@ -1,0 +1,33 @@
+ul {
+  margin-left: 5%;
+  padding-left: 1px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  position: fixed;
+}
+
+.nav-option {
+  list-style: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-option:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-option {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

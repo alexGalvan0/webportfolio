@@ -1,0 +1,17 @@
+.project-container{
+    display: grid;
+    grid-auto-flow: column;
+    gap:10px;
+}
+.project-headers{
+   display: inline-flex;
+   flex-direction: column;
+}
+@media screen and (max-width:960px) {
+    .project-container{
+        grid-auto-flow: row;
+    }
+}
+.projects{
+    width: auto;
+}

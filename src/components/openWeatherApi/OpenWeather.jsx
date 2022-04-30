@@ -26,18 +26,19 @@ function OpenWeather(){
         <React.Fragment>
             <div className="zipForm">
                 <form>
-                    <label>
-                        Enter ZipCode: <br/> 
+                    <label> 
                         <input className="getWeatherBtn" type='button' value='Get Weather' onClick={getWeathers} /> <br/>
                     </label>
+                </form>
                     <input type='text'
                             value={zip}
                             name ='zipCode'
                             onChange={(e)=> getZip(e.target.value)}/>
-                </form>
-                <h1>City: {city}</h1>
-                <h1>Temperature: {weather}</h1>
-                <h1>Weather Description: {weatherDescription}</h1>
+                <div className="weatherinfo">
+                    <h3>City: {city}</h3>
+                    <h3>Temperature: {weather}</h3>
+                    <h3>Weather Description: {weatherDescription}</h3>
+                </div>
             </div>
         </React.Fragment>
     ) 

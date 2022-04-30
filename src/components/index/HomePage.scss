@@ -1,4 +1,4 @@
-$font-color: black;
+$font-color: white;
 
 .intro-container{
     display: flex;
@@ -7,8 +7,9 @@ $font-color: black;
 }
 .welcomeMessege{
     margin-top: -100px;
-    background-color: rgb(221, 221, 221);
+    background: conic-gradient(from 180deg at 50% 50%, #ff512f, #fc442e, #fa372c, #f72b2b, #f42a35, #f1293f, #ee2849, #eb2752, #e7265c, #e42565, #e1256d, #dd2476);
     padding-left: 10px;
+    color:$font-color;
 }
 .mainIntro{
     margin-top: 20px;

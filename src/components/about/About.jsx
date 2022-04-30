@@ -12,6 +12,7 @@ function About(){
                                                 fall of 2022 and am eager to get learning new tech! 
                 </p>
             </div>
+            <img src={require('./assets/profile-pic.jpg')} alt="no Pics"/>
         </div>
     )
 }

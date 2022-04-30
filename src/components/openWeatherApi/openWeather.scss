@@ -1,17 +1,30 @@
+$gradient1: conic-gradient(from 270deg at 50% 50%, #43cea2, #3bceaa, #32ceb4, #2ecabb, #2bc4c2, #28b7bf, #25a6ba, #2296b4, #1f87af, #1d77a9, #1a68a3, #185a9d);
+$gradientButton1: #185a9d;
+$gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a, #56ff4c, #2eff5b, #10ff84, #00f2b5, #00d0d4, #0082b6, #004498, #00167a, #08005c);
+
 .zipForm{
     display: grid;
     place-items: center;
-    background-color: #ca2a0e;
+    background: $gradient1
 }
 .getWeatherBtn{
-    background-color: #f88b70;
+    background: $gradientButton1;
+    transition: all 1s ease-in-out;
     color: white;
     border: none;
     border-radius: 4px;
     margin-top: 2rem;
     margin-bottom: auto;
     padding: auto;
-    font-family: open sans;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     cursor: pointer;
+}
+.weatherinfo{
+    color: white;
+}
+@media screen and (max-width:960px) {
+    .zipForm{
+        background: conic-gradient(from 360deg at 50% 50%, #43cea2, #3bceaa, #32ceb4, #2ecabb, #2bc4c2, #28b7bf, #25a6ba, #2296b4, #1f87af, #1d77a9, #1a68a3, #185a9d);
+    }
 }

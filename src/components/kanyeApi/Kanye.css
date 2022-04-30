@@ -28,8 +28,7 @@
   display: grid;
   place-items: center;
   background: #833ab4;
-  background: -webkit-gradient(linear, left bottom, left top, from(#833ab4), color-stop(50%, #fd1d1d), to(#fcb045));
-  background: linear-gradient(0deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  background: conic-gradient(from 90deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
 }
 
 .quotes {
@@ -44,6 +43,9 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
     text-align: center;
+  }
+  .kanye-comp {
+    background: conic-gradient(from 180deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
   }
 }
 /*# sourceMappingURL=Kanye.css.map */

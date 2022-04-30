@@ -13,7 +13,7 @@ function Contact(){
             </div>
             <div className="phoneNumber">
                 <h6>Phone Number:</h6>
-                <h7 className="phone"><a href="tel:8597979311" target="_blank" >8597-797-9311</a></h7>
+                <h7 className="phone"><a href="tel:8597979311" target="_blank" >502-208-9984</a></h7>
             </div>
         </div>
     )

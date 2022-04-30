@@ -11,8 +11,7 @@
 
 .welcomeMessege {
   margin-top: -100px;
-  background: conic-gradient(from 180deg at 50% 50%, #ff512f, #fc442e, #fa372c, #f72b2b, #f42a35, #f1293f, #ee2849, #eb2752, #e7265c, #e42565, #e1256d, #dd2476);
-  padding-left: 10px;
+  background: conic-gradient(from 180deg at 90% 50%, #000000, #171717, #2e2e2e, #464646, #5d5d5d, #747474, #8b8b8b, #a2a2a2, #b9b9b9, #d1d1d1, #e8e8e8, #ffffff);
   color: white;
 }
 

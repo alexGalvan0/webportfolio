@@ -10,6 +10,8 @@ function About(){
                                                 for about over 2 years now. I started out building tools to make
                                                 coworker's life easier. I am starting the Awesome Inc bootcamp this
                                                 fall of 2022 and am eager to get learning new tech! 
+                                                ps: I am the one on the right! The left is my partner 
+                                                in crime & my wife Celine.
                 </p>
             </div>
             <img src={require('./assets/profile-pic.jpg')} alt="no Pics"/>

@@ -9,7 +9,7 @@ $gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a,
 }
 .getWeatherBtn{
     background: $gradientButton1;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
     color: white;
     border: none;
     border-radius: 4px;
@@ -19,6 +19,10 @@ $gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a,
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     cursor: pointer;
+}
+.getWeatherBtn:hover{
+    background: #43cea2;
+    color: black;
 }
 .weatherinfo{
     color: white;

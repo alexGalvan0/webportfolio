@@ -5,7 +5,9 @@ import About from './components/about/About';
 import Nav from './components/nav/Nav';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-
+//$ git add .
+//$ git commit -am "make it better"
+//$ git push heroku master
 
 function App() {
   return (

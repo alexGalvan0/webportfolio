@@ -18,8 +18,9 @@
     color:black;
     transition: all .3s ease-in-out;
 }
-.kanye-comp{
+.kanye-comp{ 
     display: grid;
+  /*  width: 50vw; */
     place-items: center;
     background: rgb(131,58,180);
     background: conic-gradient(from 90deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);

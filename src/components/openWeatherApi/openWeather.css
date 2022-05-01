@@ -3,6 +3,7 @@
   display: grid;
   place-items: center;
   background: conic-gradient(from 270deg at 50% 50%, #43cea2, #3bceaa, #32ceb4, #2ecabb, #2bc4c2, #28b7bf, #25a6ba, #2296b4, #1f87af, #1d77a9, #1a68a3, #185a9d);
+  /*width: 50vw;*/
 }
 
 .getWeatherBtn {

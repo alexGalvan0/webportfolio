@@ -26,7 +26,7 @@
 .kanye-comp {
   display: -ms-grid;
   display: grid;
-  width: 100vh;
+  width: 50vw;
   place-items: center;
   background: #833ab4;
   background: conic-gradient(from 90deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
@@ -46,6 +46,7 @@
   }
   .kanye-comp {
     background: conic-gradient(from 180deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
+    width: auto;
   }
 }
 /*# sourceMappingURL=Kanye.css.map */

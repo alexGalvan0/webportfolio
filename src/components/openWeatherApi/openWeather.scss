@@ -3,10 +3,10 @@ $gradientButton1: #185a9d;
 $gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a, #56ff4c, #2eff5b, #10ff84, #00f2b5, #00d0d4, #0082b6, #004498, #00167a, #08005c);
 
 .zipForm{
-    display: grid;
-    place-items: center;
     background: $gradient1;
-    width: 100vh;
+    display: grid;
+    width: 45vw;
+    place-items: center;
 }
 .getWeatherBtn{
     background: $gradientButton1;
@@ -31,5 +31,8 @@ $gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a,
 @media screen and (max-width:960px) {
     .zipForm{
         background: conic-gradient(from 360deg at 50% 50%, #43cea2, #3bceaa, #32ceb4, #2ecabb, #2bc4c2, #28b7bf, #25a6ba, #2296b4, #1f87af, #1d77a9, #1a68a3, #185a9d);
+    }
+    .zipForm{
+        width: auto;
     }
 }

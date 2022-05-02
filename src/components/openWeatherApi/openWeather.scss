@@ -6,7 +6,7 @@ $gradientButton2: radial-gradient(circle at 100% 50%, #f2ffa6, #ceff88, #9aff6a,
     display: grid;
     place-items: center;
     background: $gradient1;
-    /*width: 50vw;*/
+    width: 100vh;
 }
 .getWeatherBtn{
     background: $gradientButton1;

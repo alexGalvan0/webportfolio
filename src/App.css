@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    border: 2rem solid white;
+    padding: 0 2rem;
     border-top: 10px;   
 }
 Nav{

@@ -1,18 +1,18 @@
+
 import axios from 'axios';
 import React,{ useState } from "react";
 import './openWeather.css'
 
 
-function OpenWeather(){
+function FlaskWeather(){
     const [weather, getWeather] = useState("");
     const [zip, getZip] = useState(40517)
     const [city, getCity] = useState("");
-    const [weatherDescription, getWeatherDescription] = useState("")
+    const [weatherDescription, getWeatherDescription] = useState(null)
 
 
     const getWeathers = async () => {
-        let apiKey = '933f7703450958683b430c05ee91f80b';
-        let url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${apiKey}&units=imperial`
+        let url = `https://weathera-api.herokuapp.com/${zip}`
         const response = await axios.get(url)
             getWeather(response.data.main.temp);
             getCity(response.data.name);
@@ -41,4 +41,4 @@ function OpenWeather(){
         </React.Fragment>
     ) 
 }
-export default OpenWeather;
+export default FlaskWeather;

@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Nav from './components/nav/Nav';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import FlaskWeather from './components/FlaskWeather/FlaskWeather';
 //$ git add .
 //$ git commit -am "make it better"
 //$ git push heroku master
@@ -13,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav/>
+        <Nav />
           <Routes>
               <Route exact path="/" element={[<HomePage/>,<About/>]} />
               <Route className="contact-app-page" exact path="/contact" element={< Contact />} />

@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 function KANYE_QUOTE(){
-    const[quote, getQuote] = useState("")
+    const[quote, getQuote] = useState()
     const getQuotes = async () => {
         const response = await axios.get('https://api.kanye.rest')
         getQuote(response.data.quote)

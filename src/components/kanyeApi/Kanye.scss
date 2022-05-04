@@ -1,7 +1,9 @@
+$background: #C4CAD0;
+$Button1: #a2a7ac;
+$Button2: #d7dee5;
 .getQuoteBtn{
     transition: all .3s ease-in-out;
-    background: rgb(131,58,180);
-    background: linear-gradient(180deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); 
+    background:$Button1; 
     color: white;
     border: none;
     border-radius: 4px;
@@ -14,7 +16,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .getQuoteBtn:hover{
-    background: red;
+    background: $Button2;
     color:black;
     transition: all .3s ease-in-out;
 }
@@ -23,7 +25,7 @@
     width: 50vw;
     place-items: center;
     background: rgb(131,58,180);
-    background: conic-gradient(from 90deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
+    background: $background
 }
 .quotes{
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +39,6 @@
         text-align: center;
     }
     .kanye-comp{
-        background: conic-gradient(from 180deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
         width: auto;
     }
 

@@ -1,9 +1,7 @@
 .getQuoteBtn {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  background: #833ab4;
-  background: -webkit-gradient(linear, left top, left bottom, from(#833ab4), color-stop(50%, #fd1d1d), to(#fcb045));
-  background: linear-gradient(180deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  background: #a2a7ac;
   color: white;
   border: none;
   border-radius: 4px;
@@ -17,7 +15,7 @@
 }
 
 .getQuoteBtn:hover {
-  background: red;
+  background: #d7dee5;
   color: black;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -29,7 +27,7 @@
   width: 50vw;
   place-items: center;
   background: #833ab4;
-  background: conic-gradient(from 90deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
+  background: #C4CAD0;
 }
 
 .quotes {
@@ -45,7 +43,6 @@
     text-align: center;
   }
   .kanye-comp {
-    background: conic-gradient(from 180deg at 50% 50%, #833ab4, #a137bf, #c433ca, #d233bb, #d834a4, #de368a, #e4376e, #e93952, #ee443c, #f3673f, #f88b42, #fcb045);
     width: auto;
   }
 }

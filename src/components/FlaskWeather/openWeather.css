@@ -22,7 +22,7 @@
 }
 
 .getWeatherBtn:hover {
-  background: #d7dee5;
+  background: Button2;
   color: black;
 }
 
@@ -31,9 +31,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .zipForm {
-    background: conic-gradient(from 360deg at 50% 50%, #43cea2, #3bceaa, #32ceb4, #2ecabb, #2bc4c2, #28b7bf, #25a6ba, #2296b4, #1f87af, #1d77a9, #1a68a3, #185a9d);
-  }
   .zipForm {
     width: auto;
   }

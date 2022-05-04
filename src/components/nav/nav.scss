@@ -1,8 +1,13 @@
 
+.div{
+    display: flex;
+    background-color: blue;
+    border-bottom: 1px solid black;
+}
 ul{
     margin-left: 5%;
     padding-left: 1px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 10px;

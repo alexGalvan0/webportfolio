@@ -1,6 +1,6 @@
 $background: #eaeaea;
 $Button1: #d5d5d5;
-$Button2: #d7dee5;
+$Button2: #eeeeee;
 .zipForm{
     background: $background;
     display: grid;
@@ -11,7 +11,7 @@ $Button2: #d7dee5;
 .getWeatherBtn{
     background:$Button1;
     border: 1px solid #969696;
-    border-radius: none;
+    border-radius: 0px;
     color:black;
     transition: all .3s ease-in-out;
     margin-top: 2rem;

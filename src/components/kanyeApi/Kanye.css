@@ -1,7 +1,7 @@
 .getQuoteBtn {
   background: #d5d5d5;
   border: 1px solid #969696;
-  border-radius: none;
+  border-radius: 0px;
   color: black;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -18,7 +18,7 @@ span {
 }
 
 .getQuoteBtn:hover {
-  background: #d7dee5;
+  background: #eeeeee;
   color: black;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;

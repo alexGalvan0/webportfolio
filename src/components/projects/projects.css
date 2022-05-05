@@ -2,6 +2,7 @@
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
+  gap: 10px;
 }
 
 .project-headers {
@@ -12,6 +13,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.about {
+  width: auto;
 }
 
 @media screen and (max-width: 960px) {

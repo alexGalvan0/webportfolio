@@ -1,4 +1,4 @@
-$background: #C4CAD0;
+$background: #eaeaea;
 $Button1: #a2a7ac;
 $Button2: #d7dee5;
 .zipForm{
@@ -6,26 +6,20 @@ $Button2: #d7dee5;
     display: grid;
     width: 45vw;
     place-items: center;
+    border: 1px solid #969696;
 }
 .getWeatherBtn{
-    background: $Button1;
-    transition: all .5s ease-in-out;
-    color: white;
-    border: none;
-    border-radius: 4px;
+    transition: all .3s ease-in-out;
     margin-top: 2rem;
-    margin-bottom: auto;
+    margin-bottom: 10px;
     padding: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     cursor: pointer;
 }
 .getWeatherBtn:hover{
-    background:Button2;
-    color: black;
-}
-.weatherinfo{
-    color: white;
+    transition: all .3s ease-in-out;
+    background:$Button2;
 }
 @media screen and (max-width:960px) {
     .zipForm{

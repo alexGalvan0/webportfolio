@@ -1,11 +1,21 @@
 .info-container {
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10rem;
+  padding: 0 25%;
+  gap: 100px;
 }
 
 .about-header {
-  text-align: center;
+  text-align: start;
   text-decoration: underline;
 }
 
@@ -14,20 +24,25 @@
 }
 
 img {
-  width: 15rem;
-  height: 20rem;
+  width: 15em;
+  height: 20em;
 }
 
 @media screen and (max-width: 960px) {
   .info-container {
-    padding-left: 5%;
-    padding-right: 10%;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .about-msg-content {
     text-align: center;
+    width: auto;
   }
   .about-header {
     text-align: center;
+  }
+  img {
+    margin-top: -40px;
   }
 }
 /*# sourceMappingURL=about.css.map */

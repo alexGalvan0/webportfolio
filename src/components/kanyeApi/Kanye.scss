@@ -1,19 +1,17 @@
-$background: #C4CAD0;
+$background: #eaeaea;
 $Button1: #a2a7ac;
 $Button2: #d7dee5;
 .getQuoteBtn{
     transition: all .3s ease-in-out;
-    background:$Button1; 
-    color: white;
-    border: none;
-    border-radius: 4px;
     margin-top: 2rem;
     margin-bottom: auto;
     width: 10rem;
-    padding: 2rem;
     font-size: 25px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+}
+span{
+    font-weight: bold;
 }
 .getQuoteBtn:hover{
     background: $Button2;
@@ -24,13 +22,13 @@ $Button2: #d7dee5;
     display: grid;
     width: 50vw;
     place-items: center;
-    background: rgb(131,58,180);
-    background: $background
+    background: $background;
+    border: 1px solid #969696;
 }
 .quotes{
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
-    color: white;
+    padding-top: 10px;
 }
 @media screen and (max-width:960px) {
     .quotes{

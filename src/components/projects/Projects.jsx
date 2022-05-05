@@ -1,6 +1,5 @@
 import React from "react";
 import KANYE_QUOTE from "../kanyeApi/Kanye";
-import OpenWeather from '../openWeatherApi/OpenWeather'
 import FlaskWeather from "../FlaskWeather/FlaskWeather";
 import'./projects.css'
 
@@ -12,7 +11,6 @@ function Projects(){
             </div>
                 <div className="project-container">
                     <KANYE_QUOTE />
-                    {/*<OpenWeather/> */}
                     <FlaskWeather/> 
                 </div>
         </div>

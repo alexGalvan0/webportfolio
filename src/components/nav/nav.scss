@@ -1,22 +1,22 @@
-
-.div{
+.unordered-li-list{
     display: flex;
-    background-color: blue;
-    border-bottom: 1px solid black;
-}
-ul{
-    margin-left: 5%;
-    padding-left: 1px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 10px;
+    justify-content: center;
+    padding: 0 0 0 0;
+    width: 100%;
+    margin-top: 0px;
+    background: rgb(234, 234, 234);
     position: fixed;
+    border-bottom: 1px solid #969696;
+
 }
+
 .nav-option{
+    padding: 0 2%;
     list-style: none;
     cursor: pointer;
     font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .nav-option:hover{
     text-decoration: underline;

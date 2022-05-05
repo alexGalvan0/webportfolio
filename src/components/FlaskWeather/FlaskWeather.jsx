@@ -33,9 +33,9 @@ function FlaskWeather(){
                             name ='zipCode'
                             onChange={(e)=> getZip(e.target.value)}/>
                 <div className="weatherinfo">
-                    <h3>City: {city}</h3>
-                    <h3>Temperature: {weather}</h3>
-                    <h3>Weather Description: {weatherDescription}</h3>
+                    <p><span>City: </span> {city}</p>
+                    <p><span>Temperature: </span> {weather}</p>
+                    <p><span>Description: </span> {weatherDescription}</p>
                 </div>
             </div>
         </React.Fragment>

@@ -7,7 +7,8 @@ body{
 }
 Nav{
     position: absolute;
-    top: 2px;
+    top: 0;
+    left: 0;
 }
 @media  screen and (max-width: 960px) {
     body{
@@ -16,4 +17,5 @@ Nav{
 }
 .App{
     margin-top: 100px;
+    padding-bottom: 100px;
 }

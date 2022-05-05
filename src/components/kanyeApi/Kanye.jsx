@@ -2,8 +2,6 @@ import React,{ useState } from 'react';
 import './Kanye.css'; 
 import axios from 'axios';
 
-
-
 function KANYE_QUOTE(){
     const[quote, getQuote] = useState()
     const getQuotes = async () => {
@@ -14,7 +12,7 @@ function KANYE_QUOTE(){
     return(
         <div className='kanye-comp'>
             <button className='getQuoteBtn' onClick={getQuotes}>Get Kanye quote!</button>
-            <q className='quotes'>{quote}</q>
+            <p className='quotes'><span>Kanye West: </span> "{quote}"</p>
         </div>
     )
 }

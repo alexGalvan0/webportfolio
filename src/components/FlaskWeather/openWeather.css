@@ -1,14 +1,15 @@
 .zipForm {
-  background: #eaeaea;
+  background: #1985A1;
   display: -ms-grid;
   display: grid;
   width: 45vw;
   place-items: center;
   border: 1px solid #969696;
+  color: white;
 }
 
 .getWeatherBtn {
-  background: #d5d5d5;
+  background: #DCDCDD;
   border: 1px solid #969696;
   border-radius: 0px;
   color: black;
@@ -25,7 +26,7 @@
 .getWeatherBtn:hover {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  background: #eeeeee;
+  background: #C5C3C6;
 }
 
 @media screen and (max-width: 960px) {

@@ -1,12 +1,13 @@
-$background: #eaeaea;
-$Button1: #d5d5d5;
-$Button2: #eeeeee;
+$background: #1985A1;
+$Button1: #DCDCDD;
+$Button2: #C5C3C6;
 .zipForm{
     background: $background;
     display: grid;
     width: 45vw;
     place-items: center;
     border: 1px solid #969696;
+    color:white;
 }
 .getWeatherBtn{
     background:$Button1;

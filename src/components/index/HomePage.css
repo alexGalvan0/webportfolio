@@ -11,15 +11,15 @@
 
 .welcomeMessege {
   margin-top: -100px;
-  background: #A9CEF4;
+  background: #1985A1;
   color: black;
   border: 1px solid #7EA0B7;
-  color: #36494E;
+  color: white;
 }
 
 .mainIntro {
   margin-top: 20px;
-  color: #36494E;
+  color: #46494C;
 }
 
 @media screen and (max-width: 960px) {

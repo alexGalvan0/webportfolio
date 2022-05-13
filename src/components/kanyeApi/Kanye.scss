@@ -1,11 +1,10 @@
-$background: #36494E;
-$Button1: #7EA0B7;
-$Button2: #eeeeee;
+$background: #1985A1;
+$Button1: #DCDCDD;
+$Button2: #C5C3C6;
 .getQuoteBtn{
     background: $Button1;
     border: 1px solid #969696;
     border-radius: 0px;
-    color:black;
     transition: all .3s ease-in-out;
     margin-top: 2rem;
     margin-bottom: auto;
@@ -16,10 +15,10 @@ $Button2: #eeeeee;
 }
 span{
     font-weight: bold;
+    color:white;
 }
 .getQuoteBtn:hover{
     background: $Button2;
-    color:black;
     transition: all .3s ease-in-out;
 }
 .kanye-comp{ 
@@ -33,6 +32,7 @@ span{
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
     padding-top: 10px;
+    color: white;
 }
 @media screen and (max-width:960px) {
     .quotes{

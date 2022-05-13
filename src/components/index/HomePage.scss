@@ -1,7 +1,9 @@
-$font-color: white;
-$background: #C4CAD0;
+$font-color: black;
+$background: #A9CEF4;
 $Button1: #a2a7ac;
 $Button2: #d7dee5;
+$font:#36494E;
+$gradient:conic-gradient(from 180deg at 90% 50%, #000000, #171717, #2e2e2e, #464646, #5d5d5d, #747474, #8b8b8b, #a2a2a2, #b9b9b9, #d1d1d1, #e8e8e8, #ffffff); 
 
 .intro-container{
     display: flex;
@@ -10,10 +12,14 @@ $Button2: #d7dee5;
 }
 .welcomeMessege{
     margin-top: -100px;
-    background: conic-gradient(from 180deg at 90% 50%, #000000, #171717, #2e2e2e, #464646, #5d5d5d, #747474, #8b8b8b, #a2a2a2, #b9b9b9, #d1d1d1, #e8e8e8, #ffffff);    color:$font-color;
+    background: $background;
+    color:$font-color;
+    border: 1px solid #7EA0B7;
+    color: $font;
 }
 .mainIntro{
     margin-top: 20px;
+    color: $font;
 }
 @media screen and (max-width:960px) {
 

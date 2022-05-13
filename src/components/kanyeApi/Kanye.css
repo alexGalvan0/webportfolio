@@ -1,5 +1,5 @@
 .getQuoteBtn {
-  background: #d5d5d5;
+  background: #7EA0B7;
   border: 1px solid #969696;
   border-radius: 0px;
   color: black;
@@ -29,7 +29,7 @@ span {
   display: grid;
   width: 50vw;
   place-items: center;
-  background: #eaeaea;
+  background: #36494E;
   border: 1px solid #969696;
 }
 

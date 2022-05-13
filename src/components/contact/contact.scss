@@ -1,3 +1,27 @@
-body{
-    border-top: 10px;   
+$background: #eaeaea;
+$Button1: #d5d5d5;
+$Button2: #eeeeee;
+.form-container{
+    display:flex;
+    justify-content: center;
+    height: 600px;    
+}
+.contact-form{
+    display: inline-flex;
+    flex-direction: column;
+    width: 20rem;
+}
+.reach-container{
+    text-align: center;
+}
+.submit-btn{
+    background-color: $Button1;
+    border: 1px solid #969696;
+    
+}
+.submit-btn:hover{
+    transition: all .3s ease-in-out;
+    background-color: $Button2;
+    cursor: pointer;
+    
 }

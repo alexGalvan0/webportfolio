@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Nav from './components/nav/Nav';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+
 //$ git add .
 //$ git commit -am "make it better"
 //$ git push heroku master
@@ -14,11 +15,13 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
+        <div className='page-container'>
           <Routes>
               <Route exact path="/" element={[<HomePage/>,<About/>]} />
               <Route className="contact-app-page" exact path="/contact" element={< Contact />} />
               <Route exact path="/projects" element={[< Projects />]} />
           </Routes>
+        </div>
       </div>
     </Router>
   );

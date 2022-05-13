@@ -24,9 +24,7 @@ function FlaskWeather(){
         <React.Fragment>
             <div className="zipForm">
                 <form>
-                    <label> 
-                        <input className="getWeatherBtn" type='button' value='Get Weather' onClick={getWeathers} /> <br/>
-                    </label>
+                    <input className="getWeatherBtn" type='button' value='Get Weather' onClick={getWeathers} /> <br/>
                 </form>
                     <input type='text'
                             value={zip}

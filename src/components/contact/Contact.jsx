@@ -1,21 +1,38 @@
-import React from "react";
 import './contact.css'
 
-function Contact(){
-    return(
-        <div className="cotact-container">
-            <br/>
-            <br/>
-            
-            <div className="email">
-                <h6>email:</h6>
-                <h7 className="email"><a href="mailto:galvan.alex121@gmail.com" target="_blank" >galvan.alex121@gmail.com</a></h7>
-            </div>
-            <div className="phoneNumber">
-                <h6>Phone Number:</h6>
-                <h7 className="phone"><a href="tel:8597979311" target="_blank" >502-208-9984</a></h7>
-            </div>
-        </div>
-    )
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
+export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_j56upqs', 'template_v2pifa5', e.target, 'L6lSsRc-f4EInS-N4')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+     e.target.reset()
+  };
+
+  return (
+    <main>
+        <div className="form-container">
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
+          <h1 className='reach-container'>Reach out to me!</h1>
+            <label>Name</label>
+            <input type="text" name="from_name" placeholder='Jon Doe' />
+            <label>Email</label>
+            <input type="email" name="form_email" placeholder='jon-doe@email.com' />
+            <label>Message</label>
+            <textarea name="message" style={{height:'200px'}} />
+            <input type="submit" value="Send"className='submit-btn'/>
+          </form>
+      </div>
+    </main>
+  );
 };
 export default Contact;

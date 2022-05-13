@@ -1,4 +1,37 @@
-body {
-  border-top: 10px;
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 600px;
+}
+
+.contact-form {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20rem;
+}
+
+.reach-container {
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #d5d5d5;
+  border: 1px solid #969696;
+}
+
+.submit-btn:hover {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background-color: #eeeeee;
+  cursor: pointer;
 }
 /*# sourceMappingURL=contact.css.map */

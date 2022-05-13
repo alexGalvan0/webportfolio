@@ -5,13 +5,15 @@ import './nav.css';
 function Nav (){
     let navigate = useNavigate();
     return(
+        <div>
             <nav className="nav-container">
-                <ul className="unordered-li-list">
+                <ul>
                     <li className="nav-option option-one" onClick={() => {navigate('/')}}>Home</li>
                     <li className="nav-option option-two" onClick={() => {navigate('/projects')}}>Projects</li>
                     <li className="nav-option option-three" onClick={() => {navigate('/contact')}}>Contact</li>
                 </ul>
             </nav>
+        </div>
     )
 }
 export default Nav;

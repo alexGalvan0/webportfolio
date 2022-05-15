@@ -10,12 +10,13 @@
 .about{
     width: auto;
 }
+.projects{
+    width: auto;
+}
+
 @media screen and (max-width:960px) {
     .project-container{
         grid-auto-flow: row;
         gap: 10px;
     }
-}
-.projects{
-    width: auto;
 }

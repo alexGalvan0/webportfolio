@@ -13,7 +13,7 @@ function Projects(){
                     <KANYE_QUOTE />
                     <FlaskWeather/> 
                 </div>
-                <hr/>
+                <hr />
                 <div className="project-headers">
                     <h2 className="api-work">APPLICATIONS:</h2>
                 </div>
@@ -32,6 +32,14 @@ function Projects(){
                         </p>
                     </div>                
                 </div>
+                <hr/> 
+                <div className="appscript">
+                    <h3 className="example3">Google Appscript Applications-</h3>
+                    <p>Created a Volunteer Tracking Application using JAVASCRIPT inside 
+                        Google applicaions that facilitated day to day operations in multiple
+                        teams across an organization. 
+                    </p>
+                </div> 
         </div>
     )}
 export default Projects;

@@ -13,6 +13,13 @@
 .projects{
     width: auto;
 }
+.api-work{
+    text-decoration:underline;
+}
+.example{
+    text-decoration: none;
+    color: black;
+}
 
 @media screen and (max-width:960px) {
     .project-container{

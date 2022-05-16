@@ -17,8 +17,7 @@ export const Contact = () => {
     <main>
         <div className="form-container">
           <form ref={form} onSubmit={sendEmail} className="contact-form" method='POST'>
-          <div class="g-recaptcha" data-sitekey="6LfXafEfAAAAAHK9nQDWs3qCxxyT58Qn898id6sh"></div>
-          <br/>
+
           <h1 className='reach-container'>Reach out to me!</h1>
             <label>Name</label>
             <input type="text" name="from_name" placeholder='Jon Doe' />
@@ -26,6 +25,7 @@ export const Contact = () => {
             <input type="email" name="form_email" placeholder='jon-doe@email.com' />
             <label>Message</label>
             <textarea name="message" style={{height:'200px'}} />
+            <div class="g-recaptcha" data-sitekey="6LekdvEfAAAAAH1agadDoiy3P3EtlhY7UVntwB2E"></div>
             <input type="submit" value="Send"className='submit-btn'/>
           </form>
       </div>

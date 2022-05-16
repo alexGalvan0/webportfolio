@@ -16,7 +16,7 @@ export const Contact = () => {
   return (
     <main>
         <div className="form-container">
-          <form ref={form}  className="contact-form" method='POST'>
+          <form ref={form} onSubmit={sendEmail} className="contact-form" method='POST'>
 
           <h1 className='reach-container'>Reach out to me!</h1>
             <label>Name</label>

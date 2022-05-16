@@ -1,12 +1,19 @@
 import React,{ useState } from 'react';
 import './Kanye.css'; 
 import axios from 'axios';
+import Filter from 'bad-words';
+
 
 function KANYE_QUOTE(){
     const[quote, getQuote] = useState()
     const getQuotes = async () => {
         const response = await axios.get('https://api.kanye.rest')
-        getQuote(response.data.quote)
+        
+        const filter = new Filter();
+        filter.removeWords('God');
+        let cleanQuote = filter.clean(response.data.quote)
+        console.log(response.data.quote)
+        getQuote(cleanQuote)
         
     }
     return(

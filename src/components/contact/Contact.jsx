@@ -8,13 +8,8 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_j56upqs', 'template_v2pifa5', e.target, 'L6lSsRc-f4EInS-N4')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+
      e.target.reset()
   };
 

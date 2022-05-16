@@ -9,10 +9,10 @@ function KANYE_QUOTE(){
     const getQuotes = async () => {
         const response = await axios.get('https://api.kanye.rest')
         
+        //Filter out curse words from quote response from Kanye-API
         const filter = new Filter();
         filter.removeWords('God');
         let cleanQuote = filter.clean(response.data.quote)
-        console.log(response.data.quote)
         getQuote(cleanQuote)
         
     }

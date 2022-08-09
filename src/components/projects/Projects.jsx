@@ -27,8 +27,13 @@ function Projects(){
                     <hr/>   
                     <div className="asana">
                         <h3 className="example2">Asana Automations-</h3>
-                        <p>Created a quoting application using HTML5 CSS3 JAVASCRIPT 
-                            for the front end, and PYTHON Flask for the backend. 
+                        <p>Scripted multiple pluggins for a project management software called Asana. Automations have been in production for over a year and are now part of evreyday process.
+                            <ul>
+                                <h6>Automations include:</h6>
+                                <li>Ticket approval notification.</li>
+                                <li>Item orderd notification with Estiamted time of arrival</li>
+                                <li>Recurring task cleanups</li>
+                            </ul>
                         </p>
                     </div>                
                 </div>

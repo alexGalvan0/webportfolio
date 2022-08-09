@@ -27,14 +27,14 @@ function Projects(){
                     <hr/>   
                     <div className="asana">
                         <h3 className="example2">Asana Automations-</h3>
-                        <p>Scripted multiple pluggins for a project management software called Asana. Automations have been in production for over a year and are now part of evreyday process.
+                        <p>Scripted multiple pluggins for a project management software called Asana. Automations have been in production for over a year and are now part of evreyday process.</p>
                             <ul>
                                 <h6>Automations include:</h6>
                                 <li>Ticket approval notification.</li>
                                 <li>Item orderd notification with Estiamted time of arrival</li>
                                 <li>Recurring task cleanups</li>
                             </ul>
-                        </p>
+                        
                     </div>                
                 </div>
                 <hr/> 
